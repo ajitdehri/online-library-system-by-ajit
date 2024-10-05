@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.book-card{
+    width: 250px;
+    margin: 20px; 
+    background-color: bisque;
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: wrap;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(0,0,0,1);
+    transition: transform 0.2s;
+    overflow: hidden;
+    height: 320px;
+    
+    
+
+
+}
+.book-card:hover{
+    transform: scale(1.1);
+
+}
+.titl{
+    font-size: small;
+    color: rgb(125, 9, 71);
+    text-decoration: none;
+}
+.autho{
+    font-size: medium;
+    text-decoration: none;
+    
+}
+
+.book-cover{
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./bg1.png);
+
+
+}
+.book-details{
+    padding: 15px;
+}
+
+
+.bookList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.note-found{
+    color: rgb(12, 38, 33);
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+}
+
+
+.err-home1{
+    margin-top: 30px;
+
+}
+.err-home{
+    font-size: large;
+    border: 1px solid blue;
+    padding: 3px;
+    text-align: center;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 3px;
+    text-decoration: none;
+
+    
+
+}
+.err-home:hover{
+    background-color: rgb(0, 140, 255);
+    color:whitesmoke;
+    border: none;
+
+}
+.all-book{
+    height: 40px;
+    background-color: bisque;
+    text-align: center;
+    padding-top: 5px;
+    color: rgb(79, 50, 14);
+    font-style: initial;
+   
+}
+a{
+    text-decoration: none;
+}

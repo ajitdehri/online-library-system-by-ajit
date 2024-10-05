@@ -1,0 +1,73 @@
+.add-book-style{
+    display: inline-block;
+    border-radius: 5px;
+    margin-left: 25%;
+    margin-top:9%;
+   
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 50%;
+    
+}
+input[type=text]{
+    width: 100%;
+    padding: 12PX 20PX;
+    margin: 8PX 0;
+    display: inline-block;
+    border: 1PX solid #CCC;
+    box-sizing: border-box;
+    
+}
+button[type=submit]{
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.addbook2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.addbook1{
+    margin-top: 15px;
+    width: 240px;
+    height: 250px;
+    list-style-type: none;
+    border-radius: 7px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgb(0,0,0,1);
+    transition: transform 0.2s;
+    overflow: hidden;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./bg1.png);
+    
+    
+}
+
+
+.addbook1:hover{
+    background-color:wheat;
+    transform: scale(1.1);
+
+}
+.addbook1 h1{
+    margin-top: 140px;
+}
+
+.title3{
+    color: #07abe7;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow Bold', sans-serif;
+    font-size: x-larger;
+}
+
+.title4{
+    font-size: x-larger;
+    font-family: monospace;
+    color: #af07e7;
+}
